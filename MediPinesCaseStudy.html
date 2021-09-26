@@ -12,9 +12,9 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link rel="shortcut icon" href="images/laurenlogo.ico"/>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<link rel="shortcut icon" href="images/laurenlogo.ico"/>
 	</head>
 	<body class="is-preload">
 			<div id="top-bookmark">
@@ -28,12 +28,14 @@
 			<div class="alt" id="page-wrapper">
 				<div class="container alt" id="page-wrapper">
 					<!-- Header -->
-					<header id="header" class="alt black">
-						<div class="d-flex flex-row inner aln-center">
+					<header id="header" class="alt">
+						<div class="row flex-row inner aln-center">
 							<div class="d-flex flex-column col justify-content-center">
-							<div class="logo"><img src="images/LaurenLogo.png"></div>
+								<div class="logo">
+									<a href="index.html"><img src="images/LaurenLogo.png"></a>
+								</div>
 							</div>
-							<div class="col">
+							<div class="col navbar-col">
 								<nav class="navbar navbar-light navbar-expand-md" id="topbar">
 									<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 										<span class="navbar-toggler-icon"></span>
@@ -41,9 +43,9 @@
 									<div class="collapse navbar-collapse w-100 order-3 dual-collapse2" id="navbarNavAltMarkup">
 										<!-- Nav Bar Contents -->
 										<div class="navbar-nav ml-auto">
-											<a class="nav-link active" aria-current="page" href="index.html"><h4>Work</h4></a>
+											<a class="nav-link" href="index.html"><h4>Work</h4></a>
 											<a class="nav-link" href="about.html"><h4>About</h4></a>
-											<a class="nav-link" href="Lauren Hurr Resume.pdf"><h4>Resume</h4></a>
+											<a class="nav-link" href="Lauren Hurr Resume.pdf" target="_blank"><h4>Resume</h4></a>
 											<a class="nav-link" href="#footer"><h4>Contact</h4></a>
 										</div>
 									</div>
@@ -61,8 +63,8 @@
 									<div class="d-flex flex-column col px-4 justify-content-center">
 										<h1 class="proj-title">MediPines</h1>
 										<p class="about-desc">MediPines is a medical device startup that invented the first FDA-cleared 
-										protable gas exchange monitor, providing non-invasive detection on respiratory measurements quickly
-										assess what patients need.</p>
+										portable gas exchange monitor, providing a non-invasive method to measure respiratory health and quickly
+										assess what treatment patients need.</p>
 									</div>
 								</div>
 							</div>
@@ -99,11 +101,11 @@
 								<div class="col-md-2 px-4">
 									<h2 class="proj-subtitle">Tools</h2>
 									<p class="proj-subdesc">Figma</p>
-									<p class="proj-subdesc">Photoshop</p>
+									<p class="proj-subdesc">Miro</p>
 								</div>
 								<div class="col-md-2 px-4">
-									<h2 class="proj-subtitle">Main Goal</h2>
-									<p class="proj-subdesc">Website Redesign</p>
+									<h2 class="proj-subtitle">Project Scope</h2>
+									<p class="proj-subdesc">Redesign website for a client</p>
 								</div>
 								<div class="col-md-2">
 								</div>
@@ -128,7 +130,7 @@
 								casualties.
 								</p>
 								<p class="proj-subdesc">
-								I initially learned about this company from an article that described how it was helping patients with 
+								I initially learned about this company from an article that described how they were helping patients with 
 								COVID-19. I reached out for an opportunity to propose a UX/UI redesign of their website. They were 
 								excited to what I would bring to the table. 
 								</p>
@@ -192,32 +194,40 @@
 										<div class="col-md-7">
 											<div class="d-flex flex-row inner aln-center gtr-50">
 												<div class="col">
-													<h2 class="proj-title">Learning About the Company</h2>
-													<h2 class="proj-subtitle">Stakeholder interview</h2>
-													<p class="proj-subdesc">I spoke with the CEO to get a better understanding of the
-													company, its values, and its goals. I wanted to learn how the product works and 
-													the company’s mission. I was given the website’s analytics, which showed high 
-													website traffic but low conversion rates.</p>
+													<h2 class="proj-title">Speaking With the Client</h2>
+													<h2 class="proj-subtitle">Client interview</h2>
+													<p class="proj-subdesc">Speaking with the client was integral to understanding the product
+													and empathizing with its users. I needed to understand the significance of this product 
+													and its benefits to both patients and medical professionals. I was able to set deadlines,
+													goals, and expectations for this project. The client walked me through the challenges that
+													the company was facing in regards to the growing traffic rate of the website but stagnant conversion
+													rate.</p>
 												</div>
 											</div>
 										<div class="d-flex flex-row inner aln-center gtr-50">
 											<div class="col">
 												<h2 class="proj-title">Identifying Current Usability Issues</h2>
-												<h2 class="proj-subtitle">Stakeholder interview, Usability Testing</h2>
-												<p class="proj-subdesc">I conducted a heuristic evaluation using Jakob Nielsen’s 10 
+												<h2 class="proj-subtitle">Heuristic Evaluation, Usability Testing</h2>
+												<p class="proj-subdesc">I conducted a <a href="med_heuristic.pdf" class="external" target="_blank">heuristic evaluation</a> using Jakob Nielsen’s 10 
 												usability heuristics to:</p>
 												<ul class="proj-subdesc">
 												  <li>Help me understand the current usability issues based on established usability design principles</li>
 												  <li>Familiarize myself with the current website and learn it as if I was an actual user</li>
 												</ul> 
 												<p class="proj-subdesc">Since I’m not the targeted user, and the heuristic evaluation can only uncover 
-												around only 20% of usability issues, I also conducted a usability test with MediPines’ target audience, 
-												medical professionals. I wanted to uncover as many usability issues as I can, and I gave each participant 
-												the same scenario and tasks to complete.</p>												
+												around 20% of usability issues, I conducted a usability test with MediPines’ target audience: 
+												medical professionals. This ensured that I uncover as many usability issues as I can. I gathered five participants
+												ranging from pulmonologists to registered nurses, and I gave each participant the same scenario and tasks to
+												complete.</p>												
 											</div>
 										</div>
 										</div>
 									</div>
+									<div class="d-flex flex-row inner aln-center gtr-50" id="section-01-trigger">
+										<div class="col no-padding">
+											<img src="images/med_quotes.png" class="img-fluid img-dark" alt="Responsive image" />
+										</div>
+									</div>	
 								</div>
 							</section>
 					</section>
@@ -241,13 +251,14 @@
 								<div class="col-md-7">
 									<div class="d-flex flex-row inner aln-center gtr-50">
 										<div class="col">
-											<h2 class="proj-title">Analyzing the Data</h2>
+											<h2 class="proj-title">Analyzing the Data With the Operations Team</h2>
 											<h2 class="proj-subtitle">Affinity Mapping, Priority Matrix</h2>
-											<p class="proj-subdesc">Using the data collected from the usability tests, I synthesized my findings
-											under 5 main categories based on the main pages that the client wanted me to focus on - homepage, 
-											product page, FAQ, and contact page. My findings were then organized using an affinity map to help 
-											me look for patterns and trends. Realistically, I could not solve all usability issues that were 
-											uncovered, so I created a priority matrix to identify the most important problems.</p>
+											<p class="proj-subdesc">Using the data collected from the usability tests, I brought in the operations
+											team to synthesize the findings. We utilized Miro, a collaboration tool, to facilitate
+											this workshop. I wanted the team to understand current usability issues so that they see the purpose
+											behind the redesign choices. We synthesized the findings under four main categories that the client and
+											I decided to focus on - home page, product page, FAQ, and contact page. We then created a priority matrix
+											to identify the most important and feasible problems to tackle.</p>
 										</div>
 									</div>
 								</div>
@@ -296,12 +307,12 @@
 								  <a class="next" onclick="plusSlides('Set-02', 1)">&#10095;</a>
 								  <!-- Image text -->
 								  <div class="d-flex flex-row inner justify-content-center gtr-50">
-								  <div class="col-3 column col-demo">
-									<img class="demo cursor Set-02-demo" src="images/med_affinity.png" style="width:60%" onclick="currentSlide('Set-02', 1)" alt="Affinity Map">
-								  </div>
-								  <div class="col-3 column col-demo">
-									<img class="demo cursor Set-02-demo" src="images/med_priority.png" style="width:60%" onclick="currentSlide('Set-02', 2)" alt="Priority Matrix">
-								  </div>
+									  <div class="col-3 column col-demo">
+										<img class="demo cursor Set-02-demo" src="images/med_affinity.png" style="width:60%" onclick="currentSlide('Set-02', 1)" alt="Affinity Map">
+									  </div>
+									  <div class="col-3 column col-demo">
+										<img class="demo cursor Set-02-demo" src="images/med_priority.png" style="width:60%" onclick="currentSlide('Set-02', 2)" alt="Priority Matrix">
+									  </div>
 								  </div>
 								</div>
 							</div>
@@ -310,9 +321,11 @@
 
 								</div>
 								<div class="col-md-7">
-									<h3 class="proj-subtitle"> 
+									<h2 class="proj-subtitle" style="color: #111111"> 
 										Pain Points
-									</h3>
+									</h2>
+									<p class="proj-subdesc">After we organized the data and determined priorities for the redesign,
+									we decided to focus on the following pain points:</p>
 									<div class="card d-flex" id="statement">
 										<div class="card-body d-flex" id="statement">
 										<p class="card-text">
@@ -330,21 +343,21 @@
 									<div class="card d-flex" id="statement">
 										<div class="card-body d-flex" id="statement">
 										<p class="card-text">
-											Difficulties finding the product page, FAQ, contact page, and demo request feature
+											Difficulties finding the product page, FAQ, contact page, and demo request button
 										</p>
 										</div>
 									</div>
 									<div class="card d-flex" id="statement">
 										<div class="card-body d-flex" id="statement">
 										<p class="card-text">
-											Frustration when filling out the contact form due to lack of structure and unnecessary forms
+											Frustration when filling out the contact form due to lack of structure and unnecessary fields
 										</p>
 										</div>
 									</div>
 									<div class="card d-flex" id="statement">
 										<div class="card-body d-flex" id="statement">
 										<p class="card-text">
-											Clicking non-clickable items due to lack of consistency of color and buttons
+											Clicking non-clickable items due to lack of consistency of colors and buttons
 										</p>
 										</div>
 									</div>
@@ -357,6 +370,28 @@
 									</div>
 								</div>
 							</div>
+							<div class="d-flex flex-row inner aln-center gtr-50">
+								<div class="col-md-5">
+
+								</div>
+								<div class="col-md-7">
+									<div class="d-flex flex-row inner aln-center gtr-50">
+										<div class="col">
+											<h2 class="proj-title">Defining the User</h2>
+											<h2 class="proj-subtitle">User Persona</h2>
+											<p class="proj-subdesc">After we decided on priorities moving forward, I created a user 
+											persona to represent who I will be redesigning the website for. This persona helped guide me 
+											to keep the redesigns centered on the user, as I continued to reference it when making design 
+											decisions. After I finished the persona, I introduced Michael to the team. </p>
+										</div>
+									</div> 
+								</div> 
+							</div> 
+							<div class="d-flex flex-row inner aln-center gtr-50">
+								<div class="col no-padding img-dark" style="text-align: center;">
+									<img src="images/med_persona.png" class="img-fluid" alt="Responsive image" />
+								</div>
+							</div>	
 						</div>
 					</section>
 				</section>
@@ -392,7 +427,7 @@
 									</div> 
 								</div> 
 								<div class="d-flex flex-row inner aln-center gtr-50" id="section-03-trigger">
-									<div class="col no-padding gray-background">
+									<div class="col no-padding img-dark">
 										<img src="images/med_userflow.png" class="stand-alone"/>
 									</div>
 								</div>
@@ -402,9 +437,11 @@
 								</div>
 								<div class="col-md-7">
 									<h2 class="proj-title">Sketching the Solution</h2>
-									<h2 class="proj-subtitle">Sketches</h2>
+									<h2 class="proj-subtitle">Sketches, POV/HMW </h2>
 									<p class="proj-subdesc">I sketched multiple designs for the homepage, product page, FAQ page,
-									and contact page. I went over my sketches with my client, and we decided to move forward with 
+									and contact page. To tackle more complex and abstract pain points, I created POV/HMW statements
+									to sketch out multiple possible solutions.
+									I went over my sketches with the client, and we decided to move forward with 
 									the sketches below:</p>
 									</div>
 								</div> 
@@ -415,7 +452,7 @@
 										<p id="Set-03-caption" class="caption"></p>
 									  </div>
 									  <div class="slides Set-03">
-										<div class="numbertext">1 / 2</div>
+										<div class="numbertext">1 / 3</div>
 										  <img src="images/med_sketches1.png" class="gallery" id="sketches1-img" onclick="openModal('sketches1')">
 										<!-- Sketches1 Modal -->
 										<div id="sketches1" class="modal">
@@ -432,7 +469,7 @@
 									  </div>
 
 									  <div class="slides Set-03">
-										<div class="numbertext">2 / 2</div>
+										<div class="numbertext">2 / 3</div>
 										  <img src="images/med_sketches2.png" class="gallery" id="sketches2-img" onclick="openModal('sketches2')">
 											<!-- User Flow Modal -->
 											<div id="sketches2" class="modal">
@@ -443,10 +480,26 @@
 											  <!-- Modal Content (The Image) -->
 											  <img class="modal-content" id="sketches2-full-img">
 
-											  <!-- Modal Caption (Image Text) -->
-											  <div id="sketches2-caption"></div>
+												<!-- Modal Caption (Image Text) -->
+												<div id="sketches2-caption"></div>
 											</div>
-										  </div>
+									  </div>
+									<div class="slides Set-03">
+									<div class="numbertext">3 / 3</div>
+									  <img src="images/med_hmw.png" class="gallery" id="hmw-img" onclick="openModal('hmw')">
+										<!-- User Flow Modal -->
+										<div id="hmw" class="modal">
+
+										  <!-- The Close Button -->
+										  <span class="close" id="hmw-close" onclick="closeModal('hmw')">&times;</span>
+
+										  <!-- Modal Content (The Image) -->
+										  <img class="modal-content" id="hmw-full-img">
+
+											<!-- Modal Caption (Image Text) -->
+											<div id="hmw-caption"></div>
+										</div>
+									</div>
 									<!-- Next and previous buttons -->
 									  <a class="prev" onclick="plusSlides('Set-03', -1)">&#10094;</a>
 									  <a class="next" onclick="plusSlides('Set-03', 1)">&#10095;</a>
@@ -458,9 +511,13 @@
 									  <div class="col-3 column col-demo">
 										<img class="demo cursor Set-03-demo" src="images/med_sketches2.png" style="width:75%" onclick="currentSlide('Set-03', 2)" alt="Sketches">
 									  </div>
+									  <div class="col-3 column col-demo">
+										<img class="demo cursor Set-03-demo" src="images/med_hmw.png" style="width:75%" onclick="currentSlide('Set-03', 3)" alt="POV/HMW">
+									  </div>
 									  </div>
 									</div>
 								</div>
+
 								</div> 
 
 							</section>
@@ -484,9 +541,9 @@
 									</div>
 									<div class="col-md-7">
 										<h2 class="proj-title">Directly Addressing User Pain Points</h2>
-										<h2 class="proj-subtitle">Hi-fi Prototype</h2>
+										<h2 class="proj-subtitle">Hi-Fi Prototype</h2>
 										<p class="proj-subdesc">I turned my lo-fi sketches into hi-fi prototypes. 
-										The below shows the before website and my redesign. </p>
+										The below shows the original website and my redesigned prototype. </p>
 									</div>
 								</div>
 								<div class="d-flex flex-row inner aln-center gtr-50" id="section-04-trigger">
@@ -618,12 +675,17 @@
 								</div>
 								</div>
 								<div class="row flex-row inner-xl aln-center" id="section-05-trigger">
+									<div class="col-12" style="text-align: center">
+									  <div class="caption-container" style="padding: 5em;">
+										<p class="caption"> Final Hi-Fi Prototype </p>
+									  </div>
+									</div>
 									<div class="col-12 col-lg-4 px-4 v-center">
 										<h2 class="proj-title">Homepage</h2>
 										<p class="proj-subdesc prev-par">Structured homepage with clear CTA’s to drive users to learn more about the product 
 										by visiting the product page or contact MediPine’s to request a demo. </p>
 									</div>
-									<div class="col-12 col-lg-6 px-4 h-center v-center" style="text-align: right">  
+									<div class="col-12 col-lg-6 px-4 h-center v-center" style="text-align: right"> 
 										<video class="video shadow" preload="none" loop autoplay muted>
 										  <source src="videos/med_home_desk.mp4" type="video/mp4">
 										  Your browser does not support the video tag.
@@ -661,7 +723,7 @@
 								<div class="row flex-row inner-xl aln-center v-center" id="video-row-3">
 									<div class="col-12 col-lg-4 px-4 v-center">
 										<h2 class="proj-title">FAQ & Contact Page</h2>
-										<p class="proj-subdesc prev-par next-par">Accordian FAQ to allow users to have control over the content by only expanding the answers 
+										<p class="proj-subdesc prev-par next-par">Accordion FAQ to allow users to have control over the content by only expanding the answers 
 										they need.</p>
 										<p class="proj-subdesc next-par">Contact button is conveniently placed under the FAQ to allow users to directly contact MediPines if 
 										they still have unanswered questions.</p>
@@ -689,18 +751,36 @@
 				<!-- Wrapper -->
 				<section class="alt" id="wrapper">
 					<section id="eight overview">
+					<div class="row flex-row inner aln-center gtr-50">
+						<div class="col-12" style="text-align: center">
+						  <div class="caption-container">
+							<p class="caption"> Interactive Prototype </p>
+						  </div>
+						</div>
+						<div class="col-12" style="text-align: center">
+						<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FqD5OxYzkgoUcH6UV6P7jKw%2FMediPines%3Fnode-id%3D39%253A173%26scaling%3Dscale-down-width%26page-id%3D39%253A172%26starting-point-node-id%3D39%253A173" allowfullscreen></iframe>
+						
+						<a class="figma-view external" href="https://www.figma.com/proto/qD5OxYzkgoUcH6UV6P7jKw/MediPines?node-id=39%3A173&scaling=scale-down-width&page-id=39%3A172&starting-point-node-id=39%3A173"><h4>View in Figma</h4></a>
+						</div>
+					</div>
 					<!-- Reflection -->
 					<div class="d-flex flex-row inner-xl aln-center begin-lg">
-						<div class="d-flex flex-column col-5 px-4 h-center">  
+						<div class="d-flex flex-column col-5 px-4">  
 							<h2 class="proj-title">Reflection</h2>
 						</div>
 						<div class="col-7 px-4">
-							<p class="proj-subdesc">This was the first UX Design project where I got to work with a real world client. This honed my 
-							client-facing skills because it was much more collobarative than my previous projects. If I were to re-do this project, 
+							<p class="proj-subdesc next-par">This was the first UX Design project where I got to work with a real world client. This honed my 
+							client-facing skills because it was much more collaborative than my previous projects. If I were to re-do this project, 
 							I would skip the heuristic evaluation and dive straight into usability testing since I didn’t find the heuristic 
 							evaluation very valuable for a website overhaul. However, conducting the heuristic evaluation was a good refresher and 
-							made me think about established UX design principles while working on the redesign. The client’s time was very valuable, 
-							so it was important for me to gather my questions and make the most out of each meeting. </p>
+							made me think about established UX design principles while working on the redesign. 
+							</p>
+							<p class="proj-subdesc">
+							Collaborating with non-designers 
+							exercised my ability to advocate for the user, as clearly articulating the pain points made it easier for the client to
+							understand the rationale for the redesign choices. The client’s time was very valuable, 
+							so it was also important for me to gather my questions and make the most out of each meeting. 
+							</p>
 						</div>
 					</div>
 					</section>

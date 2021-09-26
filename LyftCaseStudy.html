@@ -12,9 +12,9 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link rel="shortcut icon" href="images/laurenlogo.ico"/>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<link rel="shortcut icon" href="images/laurenlogo.ico"/>
 	</head>
 	<body class="is-preload">
 			<div id="top-bookmark">
@@ -28,12 +28,14 @@
 			<div class="alt" id="page-wrapper">
 				<div class="container alt" id="page-wrapper">
 					<!-- Header -->
-					<header id="header" class="alt black">
-						<div class="d-flex flex-row inner aln-center">
+					<header id="header" class="alt">
+						<div class="row flex-row inner aln-center">
 							<div class="d-flex flex-column col justify-content-center">
-							<div class="logo"><img src="images/LaurenLogo.png"></div>
+								<div class="logo">
+									<a href="index.html"><img src="images/LaurenLogo.png"></a>
+								</div>
 							</div>
-							<div class="col">
+							<div class="col navbar-col">
 								<nav class="navbar navbar-light navbar-expand-md" id="topbar">
 									<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 										<span class="navbar-toggler-icon"></span>
@@ -41,9 +43,9 @@
 									<div class="collapse navbar-collapse w-100 order-3 dual-collapse2" id="navbarNavAltMarkup">
 										<!-- Nav Bar Contents -->
 										<div class="navbar-nav ml-auto">
-											<a class="nav-link active" aria-current="page" href="index.html"><h4>Work</h4></a>
+											<a class="nav-link" href="index.html"><h4>Work</h4></a>
 											<a class="nav-link" href="about.html"><h4>About</h4></a>
-											<a class="nav-link" href="Lauren Hurr Resume.pdf"><h4>Resume</h4></a>
+											<a class="nav-link" href="Lauren Hurr Resume.pdf" target="_blank"><h4>Resume</h4></a>
 											<a class="nav-link" href="#footer"><h4>Contact</h4></a>
 										</div>
 									</div>
@@ -60,8 +62,9 @@
 								<div class="d-flex flex-row aln-center gtr-50">
 									<div class="d-flex flex-column col px-4 justify-content-center">
 										<h1 class="proj-title">Lyft</h1>
-										<p class="about-desc">The new “Add Rider” feature on Lyft lets you add your friends to your ride 
-										and split payment directly through the app. </p>
+										<p class="about-desc">The new “Add Rider” feature on Lyft allows users to carpool with friends 
+										and split payment directly through the app.
+										 </p>
 									</div>
 								</div>
 							</div>
@@ -86,7 +89,7 @@
 								</div>
 								<div class="col-md-2 px-4">
 									<h2 class="proj-subtitle">Timeline</h2>
-									<p class="proj-subdesc">180 Hours</p>
+									<p class="proj-subdesc">90 Hours</p>
 								</div>
 								<div class="col-md-2 px-4">
 									<h2 class="proj-subtitle">Role </h2>
@@ -102,8 +105,8 @@
 									<p class="proj-subdesc">Whimsical</p>
 								</div>
 								<div class="col-md-2 px-4">
-									<h2 class="proj-subtitle">Main Goal</h2>
-									<p class="proj-subdesc">Add a feature to help users easily split rides with friends</p>
+									<h2 class="proj-subtitle">Project Scope</h2>
+									<p class="proj-subdesc">Add a new feature to an existing app</p>
 								</div>
 								<div class="col-md-2">
 								</div>
@@ -121,15 +124,20 @@
 								<h2 class="proj-title">Overview</h2>
 							</div>
 							<div class="col-7 px-4">
-								<p class="proj-subdesc next-par">The “Add a Rider” feature is a way for riders to share rides with their 
-								friends through the app, reducing communication outside the app and the use for other apps.
+								<p class="proj-subdesc next-par">With the rising prices of ridesharing services, calling a ride is seen as a
+								luxury nowadays. Lyft has made efforts to alleviate the high costs by adding services such as Lyft Share that
+								allow people to split rides with strangers to lower their individual costs. However, many users expressed negative
+								sentiments towards riding with strangers as well as other issues within the app. My goal was to solve 
+								user pain points by adding a new feature.
+								The new “Add Rider” feature is a way for Lyft riders to share rides with their 
+								friends and split payments within the app, which makes rides more affordable and enjoyable.
 								</p>
 								<p class="proj-subdesc next-par">
-								Since I only use Lyft for ridesharing, I wanted to add a feature to a familar app. Also, I wanted 
-								to challenge myself to adapt to an existing style guide. 
+								Since I mainly use Lyft for ridesharing, I wanted to add a feature to a familiar app and challenge myself to adapt 
+								to an existing style guide. 
 								</p>
 								<p class="proj-subdesc">
-								<b>Disclaimer: I do not work for or have any affiliation with Lyft. </b>
+								<b>Disclaimer: This is a personal project. I do not work for or have any affiliation with Lyft. </b>
 								</p>
 							</div>
 						</div>
@@ -186,17 +194,20 @@
 												<div class="col">
 													<h2 class="proj-title">Empathizing with Lyft Riders</h2>
 													<h2 class="proj-subtitle">User Interviews</h2>
-													<p class="proj-subdesc">In order to gain empathy and really understand 
-													the target user’s needs and pain points, I conducted user interviews with 
-													regular Lyft users to understand their experience with the app and how 
-													they are utilizing the features that Lyft provides. </p>
+													<p class="proj-subdesc">In order to empathize with other Lyft users,
+													I conducted user interviews with 5 participants.
+													I wanted to understand their real experiences while using Lyft and how 
+													they are utilizing the features Lyft currently offers. I created an 
+													interview guide, which listed open-ended questions,
+													that helped me facilitate the interview. 
+													</p>
 												</div>
 											</div>
 										</div>
 									</div>
 									<div class="d-flex flex-row inner aln-center gtr-50" id="section-01-trigger">
-										<div class="col no-padding gray-background">
-											<img src="images/lyft_quotes.png" class="img-fluid" alt="Responsive image" />
+										<div class="col no-padding">
+											<img src="images/lyft_quotes.png" class="img-fluid img-dark" alt="Responsive image" />
 										</div>
 									</div>									
 								</div>
@@ -224,23 +235,26 @@
 										<div class="col">
 											<h2 class="proj-title">Identifying User Pain Points</h2>
 											<h2 class="proj-subtitle">Affinity Mapping, User Persona</h2>
-											<p class="proj-subdesc">To analyze this qualitative data, I used an affinity map
+											<p class="proj-subdesc next-par">To analyze the qualitative data that I gathered through user interviews, I used an affinity map
 											to find common themes among the users’ feedback. I divided it up into three sections
-											to see how users behave, how they respond, and how they use the application’s features.
-											Focusing on what seemed the most feasible, I identified three pain points of the users’
-											experiences: lack of affordability, clunky split payment, and desynced arrival times. I
-											created a user persona to embody the user I will be creating the new feature for.</p>
+											to see how users behave, how they respond, and how they use the application’s features.</p>
+											
+											<p class="proj-subdesc"> Focusing on what seemed the most feasible, I identified three pain points of the users’
+											experiences: lack of affordability, clunky split payment process, and desynchronized arrival times. I
+											created a user persona to embody the key audience that would benefit the most from this new feature: a social, young 
+											professional in a large city. Creating a user persona helped to tackle the various pain points and needs generated
+											from user research into a single "person" that I can easily reference during the design process.</p>
 										</div>
 									</div>
 								</div>
 							</div>
 							<div class="d-flex flex-row inner aln-center gtr-50" id="section-02-trigger">
-								<div class="col no-padding" id="gallery-02">
+								<div class="col no-padding" id="gallery-01">
 								  <!-- Full-width images with number text -->
 								  <div class="caption-container">
-									<p id="Set-02-caption" class="caption"></p>
+									<p id="Set-01-caption" class="caption"></p>
 								  </div>
-								  <div class="slides Set-02">
+								  <div class="slides Set-01">
 									<div class="numbertext">1 / 2</div>
 									  <img src="images/lyft_affinity.png" class="gallery" id="affinity-img" onclick="openModal('affinity')">
 										<!-- Affinity Map Modal -->
@@ -257,7 +271,7 @@
 										</div>
 								  </div>
 
-								  <div class="slides Set-02">
+								  <div class="slides Set-01">
 									<div class="numbertext">2 / 2</div>
 									  <img src="images/lyft_persona.png" class="gallery" id="persona-img" onclick="openModal('persona')">
 										<!-- persona Modal -->
@@ -274,22 +288,22 @@
 										</div>
 								  </div>
 								<!-- Next and previous buttons -->
-								  <a class="prev" onclick="plusSlides('Set-02', -1)">&#10094;</a>
-								  <a class="next" onclick="plusSlides('Set-02', 1)">&#10095;</a>
+								  <a class="prev" onclick="plusSlides('Set-01', -1)">&#10094;</a>
+								  <a class="next" onclick="plusSlides('Set-01', 1)">&#10095;</a>
 								  <!-- Image text -->
 								  <div class="d-flex flex-row inner justify-content-center gtr-50">
 								  <div class="col-3 column">
-									<img class="demo cursor Set-02-demo" src="images/lyft_affinity.png" style="width:75%" onclick="currentSlide('Set-02', 1)" alt="Affinity Map">
+									<img class="demo cursor Set-01-demo" src="images/lyft_affinity.png" style="width:75%" onclick="currentSlide('Set-01', 1)" alt="Affinity Map">
 								  </div>
 								  <div class="col-3 column">
-									<img class="demo cursor Set-02-demo" src="images/lyft_persona.png" style="width:75%" onclick="currentSlide('Set-02', 2)" alt="User Persona">
+									<img class="demo cursor Set-01-demo" src="images/lyft_persona.png" style="width:75%" onclick="currentSlide('Set-01', 2)" alt="User Persona">
 								  </div>
 								  </div>
 								</div>
 							</div>
 							<div class="d-flex flex-row inner aln-center gtr-50">
 								<div class="col no-padding">
-									<img src="images/lyft_pain.png" class="img-fluid" alt="Responsive image" />
+									<img src="images/lyft_pain.png" class="img-fluid img-dark" alt="Responsive image" />
 								</div>
 							</div>	
 						</div>
@@ -316,21 +330,69 @@
 										<div class="d-flex flex-row inner aln-center gtr-50">
 											<div class="col">
 												<h2 class="proj-title">Brainstorming Solutions</h2>
-												<h2 class="proj-subtitle">Competitive analysis</h2>
-												<p class="proj-subdesc">I brainstormed solutions on pen and paper that would 
-												tackle the user persona’s pain points. I completed a competitive analysis, 
-												to see how other ridesharing apps solved similar issues and to see if the ideas 
-												I’ve come up with has already been implemented. I chose to move forward with
-												the idea of adding a friend to a Lyft ride, similar to carpooling. Since this
-												proposed feature would tackle all three pain points, it was the most well-rounded 
-												solution.</p>
+												<h2 class="proj-subtitle">Mind Mapping, Competitive analysis</h2>
+												<p class="proj-subdesc">I brainstormed solutions by creating a mind map that
+												laid out potential solutions to the user persona’s pain points. To guide me in creating more solutions, 
+												I completed a competitive analysis to see how other ridesharing apps solved similar issues
+												and to see if any of my ideas had already been implemented. 
+												I chose to move forward with the idea of adding a friend to a Lyft ride, similar
+												to carpooling. Since this proposed feature would tackle all three pain points, it was the most well-rounded
+												and practical solution.</p>
 											</div>
 										</div> 
 									</div> 
 								</div> 
 								<div class="d-flex flex-row inner aln-center gtr-50" id="section-03-trigger">
-									<div class="col no-padding">
-										<img src="images/lyft_ca.png" class="stand-alone"/>
+									<div class="col no-padding" id="gallery-02">
+									  <!-- Full-width images with number text -->
+									  <div class="caption-container">
+										<p id="Set-02-caption" class="caption"></p>
+									  </div>
+									  <div class="slides Set-02">
+										<div class="numbertext">1 / 2</div>
+										  <img src="images/lyft_mind.png" class="gallery" id="mind-img" onclick="openModal('mind')">
+											<!-- Mind Map Modal -->
+											<div id="mind" class="modal">
+
+											  <!-- The Close Button -->
+											  <span class="close" id="mind-close" onclick="closeModal('mind')">&times;</span>
+
+											  <!-- Modal Content (The Image) -->
+											  <img class="modal-content" id="mind-full-img">
+
+											  <!-- Modal Caption (Image Text) -->
+											  <div id="mind-caption"></div>
+											</div>
+									  </div>
+
+									  <div class="slides Set-02">
+										<div class="numbertext">2 / 2</div>
+										  <img src="images/lyft_ca.png" class="gallery" id="ca-img" onclick="openModal('ca')">
+											<!-- Competitive Analysis Modal -->
+											<div id="ca" class="modal">
+
+											  <!-- The Close Button -->
+											  <span class="close" id="ca-close" onclick="closeModal('ca')">&times;</span>
+
+											  <!-- Modal Content (The Image) -->
+											  <img class="modal-content" id="ca-full-img">
+
+											  <!-- Modal Caption (Image Text) -->
+											  <div id="ca-caption"></div>
+											</div>
+									  </div>
+									<!-- Next and previous buttons -->
+									  <a class="prev" onclick="plusSlides('Set-02', -1)">&#10094;</a>
+									  <a class="next" onclick="plusSlides('Set-02', 1)">&#10095;</a>
+									  <!-- Image text -->
+									  <div class="d-flex flex-row inner justify-content-center gtr-50">
+									  <div class="col-3 column">
+										<img class="demo cursor Set-02-demo" src="images/lyft_mind.png" style="width:75%" onclick="currentSlide('Set-02', 1)" alt="Mind Map">
+									  </div>
+									  <div class="col-3 column">
+										<img class="demo cursor Set-02-demo" src="images/lyft_ca.png" style="width:75%" onclick="currentSlide('Set-02', 2)" alt="Competitive Analysis">
+									  </div>
+									  </div>
 									</div>
 								</div>
 								<div class="d-flex flex-row inner aln-center gtr-50">
@@ -338,13 +400,13 @@
 
 								</div>
 								<div class="col-md-7">
-									<h2 class="proj-title">Building it Out/Structuring The Experience</h2>
+									<h2 class="proj-title">Structuring The Experience</h2>
 									<h2 class="proj-subtitle">Task Flow, User Flow, Sketches</h2>
 									<p class="proj-subdesc">Once I decided on my idea of adding an “Add Rider” feature, 
-									I created a task flow to understand what the flow would be. This was challenging as a 
-									new feature must not feel out of place in the current flow, and creating a framework 
-									was important for sketching out the screens. I also created a user flow to establish 
-									the various decision making points a user will go through while using the new feature.</p>
+									I created a task flow to map out the steps the user will take to utilize this new feature. 
+									This was challenging as a new feature must not feel out of place in the current flow, and creating a framework 
+									was important for sketching out the screens. Stepping into the persona's shoes, I 
+									created a user flow that mapped out the decision-making points to ensure that the flow is intuitive.</p>
 									</div>
 								</div> 
 								<div class="d-flex flex-row inner aln-center gtr-50">
@@ -442,17 +504,19 @@
 									</div>
 									<div class="col-md-7">
 										<h2 class="proj-title">Prototyping, Testing, and Refining the Solution</h2>
-										<h2 class="proj-subtitle">Hi-fi Prototype</h2>
+										<h2 class="proj-subtitle">Hi-Fi Prototype, Usability Testing</h2>
 										<p class="proj-subdesc">Using my sketches, I created a hi-fi prototype to test the new
-										“Add Rider” feature. My main goal was to validate the potential demand for this new 
+										“Add Rider” feature using 
+										<a href="https://developer.lyft.com/docs/brand-guidelines" style="color:#0F43FB;text-decoration: underline;" target="_blank"> Lyft's existing style guidelines</a>.
+										My main goal was to validate the potential demand for this new 
 										feature as well as quickly assess and uncover any usability issues I may have overlooked.
 										I gathered 8 participants and utilized Maze, a rapid prototyping tool, and discovered a
 										few usability issues within the prototype. I then brainstormed solutions and made several
-										adjustments to directly address the user’s feedback. </p>
+										adjustments to directly address user’s feedback. </p>
 									</div>
 								</div>
 								<div class="d-flex flex-row inner aln-center gtr-50" id="section-04-trigger">
-									<div class="col gray-background begin-lg" style="padding: 3em">
+									<div class="col begin-lg img-dark" style="padding: 3em">
 										<img src="images/lyft_annotate.png" class="stand-alone-lg"/>
 									</div>
 								</div>
@@ -479,7 +543,7 @@
 									<div class="col-md-7">
 										<div class="d-flex flex-row inner aln-center gtr-50">
 											<div class="col">
-												<h2 class="proj-title">Solving usability bugs</h2>
+												<h2 class="proj-title">Solving Usability Bugs</h2>
 												<h2 class="proj-subtitle">Usability Testing</h2>
 												<p class="proj-subdesc">I conducted a second usability test 
 												with 8 new participants and found that the redesigns directly
@@ -512,17 +576,19 @@
 							<div class="col-md-2">
 							</div>
 							<div class="col-md-4 px-4 h-center align-center v-center">
-								<video class="video shadow" preload="none" loop autoplay muted>
+								<video class="video shadow-dark br-lg" preload="none" loop autoplay muted>
 								  <source src="videos/lyft_add.mp4" type="video/mp4">
 								  Your browser does not support the video tag.
 								</video>
 							</div>
 							<div class="col-md-4 px-4 v-center">
-								<h2 class="proj-title">Add another ride to your ride</h2>
-								<p class="proj-subdesc prev-par">Riders can now add their friends to
-								their ride directly through the Lyft app. Rider no longer need to 
-								ride with strangers to reduce the cost of the ride and will arrive 
-								to the destination together. </p>
+								<h2 class="proj-title">Add Another Rider to Your Ride</h2>
+								<p class="proj-subdesc prev-par">Lyft riders can now add their friends to
+								their ride directly through the Lyft app. Riders no longer need to 
+								ride with strangers to reduce the cost of the ride. Now, they can ride 
+								with their friends for a more affordable and enjoyable ride. No more worries about
+								arriving at drastically different times, since riders will be picked up by the same 
+								driver and dropped off at the same time.</p>
 							</div>
 							<div class="col-md-2">
 							</div>
@@ -534,11 +600,11 @@
 							<div class="col-md-4 px-4 v-center">
 								<h2 class="proj-title">Easily Split the Cost of the Ride</h2>
 								<p class="proj-subdesc">Riders can easily split the cost with 
-								friends without leaving the app. Payment splitting is 
-								automatically calculated. </p>
+								friends without leaving the app. Just simply click on "Split fare" to request to split the cost with the additional rider. Payment splitting is 
+								automatically calculated evenly.</p>
 							</div>
 							<div class="col-md-4 px-4 h-center align-center v-center">
-								<video class="video shadow" preload="none" loop autoplay muted>
+								<video class="video shadow-dark br-lg" preload="none" loop autoplay muted>
 								  <source src="videos/lyft_split.mp4" type="video/mp4">
 								  Your browser does not support the video tag.
 								</video>
@@ -547,9 +613,20 @@
 
 							</div>
 						</div>
+					<div class="row flex-row inner aln-center gtr-50">
+						<div class="col-12" style="text-align: center">
+						  <div class="caption-container">
+							<p class="caption"> Interactive Prototype </p>
+						  </div>
+						</div>
+						<div class="col-12" style="text-align: center">
+							<iframe width="450" height="800" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FnNAlY06RONcSwdFwYYwpsE%2FLyft%3Fnode-id%3D127%253A650%26scaling%3Dscale-down%26page-id%3D127%253A93%26starting-point-node-id%3D127%253A650" allowfullscreen></iframe>
+							<a class="figma-view external" href="https://www.figma.com/proto/nNAlY06RONcSwdFwYYwpsE/Lyft?node-id=127%3A650&scaling=scale-down&page-id=127%3A93&starting-point-node-id=127%3A650"><h4>View in figma</h4></a>
+						</div>
+					</div>
 					<!-- Reflection -->
 					<div class="d-flex flex-row inner-xl aln-center begin-lg">
-						<div class="d-flex flex-column col-5 px-4 h-center">  
+						<div class="d-flex flex-column col-5 px-4">  
 							<h2 class="proj-title">Reflection</h2>
 						</div>
 						<div class="col-7 px-4">
@@ -557,7 +634,10 @@
 							they left very few stones unturned. Gathering data from interviews and 
 							competitor apps were integral to developing my proposed feature. The user
 							testing was also a key learning experience as I was able to fix usability
-							issues that I had overlooked.</p>
+							issues that I had overlooked. At first glance, implementing the "Add Rider"
+							feature placement may look simple. In actuality, it was challenging to work 
+							within the style guide constraints and to figure out where exactly the new 
+							feature would be seamlessly integrated. </p>
 						</div>
 					</div>
 					</section>
@@ -603,7 +683,7 @@
 			// Script for gallery
 
 			var dict = new Object();
-			const sets = ["Set-02","Set-03"];
+			const sets = ["Set-01", "Set-02","Set-03"];
 			var slideIndex = 1;
 
 			for (let i = 0; i < sets.length; i++) {
